@@ -1,8 +1,7 @@
 import React from 'react';
-import Link from "next/link";
 import Image from "next/image";
 
-function Prj2Page() {
+function Prj3Page() {
     return (
         <div>
             {/*Main container*/}
@@ -80,4 +79,4 @@ function Prj2Page() {
     );
 }
 
-export default Prj2Page;
+export default Prj3Page;
