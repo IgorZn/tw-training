@@ -3,6 +3,8 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 ![Project 1](./pics/img.png)
 ![Project 2](./pics/img_1.png)
 ![Project 3](./pics/img_2.png)
+![Project 3](./pics/img_4.png)
+![Project 3](./pics/img_3.png)
 
 ## Getting Started
 
