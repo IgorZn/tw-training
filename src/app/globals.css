@@ -1,8 +1,11 @@
-@import "tailwindcss";
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/preflight.css" layer(base);
+@import "tailwindcss/utilities.css" layer(utilities);
 
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --font-alata: 'Alata'
 }
 
 @theme inline {
@@ -10,6 +13,20 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+}
+
+@layer base {
+  h5 {
+    @apply absolute bottom-7 w-full text-2xl text-gray-200 uppercase duration-200 group-hover:scale-105 group-hover:text-white
+  }
+}
+
+.item-gradient {
+  @apply absolute top-0 right-0 bottom-0 left-0 bg-linear-to-b from-transparent to-gray-900 duration-500 group-hover:opacity-50
+}
+
+.footer-menu {
+  @apply text-white font-mono md:hover:border-b-2 border-b-white
 }
 
 @media (prefers-color-scheme: dark) {
